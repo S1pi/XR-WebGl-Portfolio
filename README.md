@@ -14,7 +14,7 @@ Tämä Next.js-pohjainen portfolio kokoaa yhteen kurssin aikana toteutetut proje
 
 ## 🛠️ Teknologiat
 
-- **Framework:** Next.js 15 + React 19
+- **Framework:** Next.js 16 + React 19
 - **Styling:** Tailwind CSS 4
 - **3D Graphics:** Three.js, Model Viewer
 - **Language:** TypeScript
