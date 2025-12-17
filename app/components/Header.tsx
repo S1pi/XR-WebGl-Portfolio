@@ -1,3 +1,4 @@
+import { basePath } from "@/next.config";
 import Link from "next/link";
 
 export const Header = () => {
@@ -8,7 +9,7 @@ export const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          <Link href="/" className="flex items-center space-x-3">
+          <Link href={`${basePath}/`} className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-linear-to-br from-cyan-400 to-cyan-500 rounded-lg flex items-center justify-center">
               <span className="text-slate-950 font-bold text-lg">XR</span>
             </div>
@@ -22,19 +23,19 @@ export const Header = () => {
         </div>
         <nav className="hidden md:flex items-center space-x-8">
           <a
-            href="/"
+            href={`${basePath}/`}
             className="text-slate-400 hover:text-cyan-400 transition-colors text-sm"
           >
             Home
           </a>
           <a
-            href="/modelviewer"
+            href={`${basePath}/modelviewerhtml/index.html`}
             className="text-slate-300 hover:text-cyan-400 transition-colors text-sm font-medium"
           >
             Model Viewer
           </a>
           <a
-            href="/threejs"
+            href={`${basePath}/threejs`}
             className="text-slate-400 hover:text-cyan-400 transition-colors text-sm"
           >
             Three.js Demos

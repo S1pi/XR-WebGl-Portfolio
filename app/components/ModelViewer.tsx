@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { basePath } from "@/next.config";
 
 export const ModelViewer = () => {
   return (
@@ -15,7 +16,7 @@ export const ModelViewer = () => {
         </p>
         <div className="relative mt-10 max-w-300 w-full h-175 border-4 border-slate-700 rounded-lg overflow-hidden shadow-lg">
           <iframe
-            src="/modelviewerhtml/index.html"
+            src={`${basePath}/modelviewerhtml/index.html`}
             title="Model Viewer 3D"
             className="w-full h-full border-0"
             allow="xr-spatial-tracking; fullscreen; autoplay"
@@ -25,7 +26,7 @@ export const ModelViewer = () => {
             slot="ar-button"
           >
             <Link
-              href="/modelviewerhtml/index.html"
+              href={`${basePath}/modelviewerhtml/index.html`}
               className="px-4 py-2 bg-cyan-400 hover:bg-cyan-500 text-slate-950 font-medium rounded-lg transition-all flex items-center"
             >
               {/* <i className="fa-solid fa-mobile-screen mr-2"></i> */}

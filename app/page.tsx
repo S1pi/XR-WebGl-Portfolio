@@ -5,6 +5,7 @@ import { TbSchool } from "react-icons/tb";
 import { MdOutline3dRotation } from "react-icons/md";
 import { SiThreedotjs } from "react-icons/si";
 import { TbDeviceVisionPro } from "react-icons/tb";
+import { basePath } from "@/next.config";
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="/threejs"
+              href={`${basePath}/threejs`}
               className="px-8 py-3 bg-cyan-400 text-slate-950 font-semibold rounded-lg transition-all hover:bg-cyan-300 hover:scale-105"
             >
               Katso demot
