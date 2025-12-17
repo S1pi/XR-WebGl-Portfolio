@@ -2,7 +2,7 @@
 
 Interaktiivinen portfolio, joka esittelee Metropolian XR-kurssilla toteutettuja WebGL- ja XR-demoja.
 
-🔗 **[Live Demo](https://users.metropolia.fi/~miikavs/XR/xr-course-portfolio/)**
+🔗 **[Live Demo](https://users.metropolia.fi/~miikavs/XR/xr-portfolio)**
 
 ## 📖 Projektin kuvaus
 

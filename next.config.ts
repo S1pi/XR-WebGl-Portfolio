@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: basePath,
   assetPrefix: basePath,
+  trailingSlash: true, // Enable trailing slashes for static export IMPORTANT!!
   images: {
     unoptimized: true,
   },

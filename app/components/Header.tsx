@@ -29,7 +29,7 @@ export const Header = () => {
             Home
           </a>
           <a
-            href={`${basePath}/modelviewerhtml/index.html`}
+            href={`${basePath}/modelviewer`}
             className="text-slate-300 hover:text-cyan-400 transition-colors text-sm font-medium"
           >
             Model Viewer
